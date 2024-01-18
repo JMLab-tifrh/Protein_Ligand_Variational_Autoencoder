@@ -1,4 +1,4 @@
-This is the GitHub repository for  the manuscript titled 
+This is the GitHub repository for  the manuscript 
 
 "**An Integrated Machine Learning Approach Delineates Entropic Modulation of alpha-Synuclein by Small Molecule**"
 
