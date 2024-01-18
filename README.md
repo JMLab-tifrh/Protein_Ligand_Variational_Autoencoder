@@ -1,5 +1,7 @@
 This is the repository for  the manuscript titled 
+
 "**An Integrated Machine Learning Approach Delineates Entropic Modulation of alpha-Synuclein by Small Molecule**"
+
 doi: https://doi.org/10.1101/2024.01.15.575555
 
 variational autoencoder (VAE) and denoising convolutional VAE (DCVAE) for
