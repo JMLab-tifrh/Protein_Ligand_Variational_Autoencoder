@@ -16,12 +16,16 @@ A directory containing the training and validation loss and the model parameters
 
 #----------HOW TO RUN THE VAE PROGRAM----------#
 
-  1. Modify the following variables for a different protein in the file "train_dvae.py":-
+  1. Modify the following variables for a different protein in the file "train_dvae.py" :-
   
 	  a. input_shape
+
 	  b. path
+
 	  c. filename as in "ca_contact_scaled = np.load(path+f"data.npy")". Change "data.npy" to "your_filename.npy".
+
 	  d. Change the number of encoder, latent and decoder neurons as per requirement.
+
 	  e. Change the optimizer, loss, learning_rate, batch_size, epochs, alpha and beta as per requirement.
   
   	2. Type "./train_dvae.py" in the terminal and hit Enter.
