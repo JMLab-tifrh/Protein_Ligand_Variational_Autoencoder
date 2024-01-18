@@ -14,7 +14,7 @@ This GitHub repository contains two directories : (1) variational autoencoder (V
 
 #----------PROGRAM INPUTS----------#
 
-For both VAE and DCVAE models, one requires a file that contains the training and testing data in *.npy format. For VAE, the input shape is (9453,) and for DCVAE, the input shape is (144,144,1).
+For both VAE and DCVAE models, one requires a file that contains the training and testing data in a single file in *.npy format. For VAE, the input shape is (9453,) and for DCVAE, the input shape is (144,144,1).
 
 #----------PROGRAM OUTPUTS----------#
 
