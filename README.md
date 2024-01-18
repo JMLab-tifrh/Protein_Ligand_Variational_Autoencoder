@@ -16,7 +16,8 @@ A directory containing the training and validation loss and the model parameters
 
 #----------HOW TO RUN THE VAE PROGRAM----------#
 
-1. Modify the following variables for a different protein in the file "train_dvae.py":-
+1. Modify the following variables for a different protein in the file "train_dvae.py" :
+   
 	a. input_shape
 	b. path
 	c. filename as in "ca_contact_scaled = np.load(path+f"data.npy")". Change "data.npy" to "your_filename.npy".
