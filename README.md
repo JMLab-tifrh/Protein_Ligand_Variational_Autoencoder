@@ -36,5 +36,18 @@ A directory containing the training and validation loss and the model parameters
 
    #----------HOW TO RUN THE DCVAE PROGRAM----------#
 
+   2. Modify the following variables for a different protein in the file "train_denoising_vae.py":-
+	a. path
+	b. filename as in "ca_contact_scaled_asyn_fas = np.load(path+f"data_asyn_fas.npy")". Change "data_asyn_fas.npy" to "your_filename.npy". Reshape the data to height x width x depth. 
+	c. Change the input_shape, filters, kernels, strides, padding, number of encoder, latent and decoder neurons as per requirement.
+	d. Change the optimizer, loss, learning_rate, batch_size, epochs and beta as per requirement.
+3. Type "./train_dvae.py". Hit Enter.
+4. To create the latent data and reconstruct the input :
+	        # Open a jupyter notebook and load the model in a cell as 
+		ate=variational_convolutional_autoencoder.load(save_dir_name) # Name of the directory where the model parameters are saved. it is in the file "train_denoising_vae.py" with the variable "save_dir_name".
+		ca_contact_scaled = np.load(path+f"data_asyn_fas.npy") # Load the data
+		latent_data = ate.reconstruct_latent(ca_contact_scaled)
+		reconstructed_data = ate.reconstruct_input(ca_contact_scaled)
+
       
 
