@@ -1,4 +1,6 @@
-This is the repository for variational autoencoder (VAE) and denoising convolutional VAE (DCVAE) written in tensorflow. Instructions to run the codes are in the "README.dat" file of the individual directories
+This is the repository for variational autoencoder (VAE) and denoising convolutional VAE (DCVAE) for the manuscript titled 
+"**An Integrated Machine Learning Approach Delineates Entropic Modulation of alpha-Synuclein by Small Molecule**"
+doi: https://doi.org/10.1101/2024.01.15.575555
 
 #----------REQUIRED PACKAGES----------#
 
