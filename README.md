@@ -4,8 +4,7 @@ This is the GitHub repository for  the manuscript
 
 doi: https://doi.org/10.1101/2024.01.15.575555
 
-variational autoencoder (VAE) and denoising convolutional VAE (DCVAE) for
-
+This GitHub repository contains two directories for variational autoencoder (VAE) and denoising convolutional VAE (DCVAE) programs. 
 
 #----------REQUIRED PACKAGES----------#
 
