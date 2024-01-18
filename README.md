@@ -14,7 +14,7 @@ This GitHub repository contains two directories : (1) variational autoencoder (V
 
 #----------PROGRAM INPUTS----------#
 
-For both VAE and DCVAE models, one requires a file that contains the training and testing data in *.npy format. 
+For both VAE and DCVAE models, one requires a file that contains the training and testing data in *.npy format. For VAE, the input shape is (9453,) and for DCVAE, the input shape is (144,144,1).
 
 #----------PROGRAM OUTPUTS----------#
 
@@ -24,9 +24,9 @@ A directory containing the training and validation loss and the model parameters
 
 1. Modify the following variables for a different protein in the file "train_dvae.py" :
    
-	a. input_shape
+	a. "input_shape"
 
-	b. path
+	b. "path" # Path to data
 
 	c. filename as in "ca_contact_scaled = np.load(path+f"data.npy")". Change "data.npy" to "your_filename.npy".
 
@@ -49,7 +49,7 @@ A directory containing the training and validation loss and the model parameters
 1. Modify the following variables for a different protein in the file "train_denoising_vae.py" :
    
       
-	a. path
+	a. "path" # Path to data
 
 	b. filename as in "ca_contact_scaled_asyn_fas = np.load(path+f"data_asyn_fas.npy")". Change "data_asyn_fas.npy" to "your_filename.npy". Reshape the data to height x width x depth.
 
