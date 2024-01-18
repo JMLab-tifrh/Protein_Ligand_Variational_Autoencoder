@@ -35,6 +35,7 @@ A directory containing the training and validation loss and the model parameters
 #----------HOW TO RUN THE DCVAE PROGRAM----------#
 
 1. Modify the following variables for a different protein in the file "train_denoising_vae.py" :
+   
       
 	path
 	filename as in "ca_contact_scaled_asyn_fas = np.load(path+f"data_asyn_fas.npy")". Change "data_asyn_fas.npy" to "your_filename.npy". Reshape the data to height x width x depth. 
