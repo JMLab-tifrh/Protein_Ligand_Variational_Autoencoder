@@ -51,7 +51,7 @@ A directory containing the training and validation loss and the model parameters
       
 	a. "path" # Path to data
 
-	b. filename as in "ca_contact_scaled_asyn_fas = np.load(path+f"data_asyn_fas.npy")". Change "data_asyn_fas.npy" to "your_filename.npy". Reshape the data to height x width x depth.
+	b. filename as in "ca_contact_scaled_asyn_fas = np.load(path+f"data_asyn_fas.npy")". Change "data_asyn_fas.npy" to "your_filename.npy". 
 
 	c. Change the input_shape, filters, kernels, strides, padding, number of encoder, latent and decoder neurons as per requirement.
 
