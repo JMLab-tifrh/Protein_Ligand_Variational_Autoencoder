@@ -32,11 +32,11 @@ A directory containing the training and validation loss and the model parameters
   
   	3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements
 
-   	        # Open a jupyter notebook and load the model in a cell as 
+   	       
 		ate=dense_variational_autoencoder.load(save_dir_name) # Name of the directory where the model parameters are saved. it is in the file "train_dvae.py" with the variable "save_dir_name".
 		ca_contact_scaled = np.load(path+f"data.npy") # Load the data
-		latent_data=ate.reconstruct_latent(ca_contact_scaled)
-		reconstructed_data = ate.reconstruct_input(ca_contact_scaled)
+		latent_data=ate.reconstruct_latent(ca_contact_scaled) # Construct the latent data
+		reconstructed_data = ate.reconstruct_input(ca_contact_scaled) # Reconstruct the input data
 
    #----------HOW TO RUN THE DCVAE PROGRAM----------#
 
