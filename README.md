@@ -14,10 +14,9 @@ For both VAE and DCVAE models, one requires a file that contains the training an
 
 A directory containing the training and validation loss and the model parameters.
 
-#----------HOW TO RUN THE PROGRAM----------#
-1. VAE
+#----------HOW TO RUN THE VAE PROGRAM----------#
 
-  1.1. Modify the following variables for a different protein in the file "train_dvae.py":-
+  1. Modify the following variables for a different protein in the file "train_dvae.py":-
   
 	  a. input_shape
 	  b. path
@@ -25,7 +24,11 @@ A directory containing the training and validation loss and the model parameters
 	  d. Change the number of encoder, latent and decoder neurons as per requirement.
 	  e. Change the optimizer, loss, learning_rate, batch_size, epochs, alpha and beta as per requirement.
   
-  	1.2. Type "./train_dvae.py" in the terminal and hit Enter.
+  	2. Type "./train_dvae.py" in the terminal and hit Enter.
   
-  	1.3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements
+  	3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements
+
+   
+
+      
 
