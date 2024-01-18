@@ -24,15 +24,15 @@ A directory containing the training and validation loss and the model parameters
 	d. Change the number of encoder, latent and decoder neurons as per requirement.
 	e. Change the optimizer, loss, learning_rate, batch_size, epochs, alpha and beta as per requirement.
   
-  	2. Type "./train_dvae.py" in the terminal with the environment activated with the specified packages and hit Enter.
+2. Type "./train_dvae.py" in the terminal with the environment activated with the specified packages and hit Enter.
   
-  	3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements   	       
+3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements   	       
 		  ate=dense_variational_autoencoder.load(save_dir_name) # Name of the directory where the model parameters are saved. 
 		  ca_contact_scaled = np.load(path+f"data.npy") # Load the data
 		  latent_data=ate.reconstruct_latent(ca_contact_scaled) # Construct the latent data
 		  reconstructed_data = ate.reconstruct_input(ca_contact_scaled) # Reconstruct the input data
 
-   #----------HOW TO RUN THE DCVAE PROGRAM----------#
+#----------HOW TO RUN THE DCVAE PROGRAM----------#
 
 1. Modify the following variables for a different protein in the file "train_denoising_vae.py" :
       
