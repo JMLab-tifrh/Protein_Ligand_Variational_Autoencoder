@@ -14,7 +14,7 @@ For both VAE and DCVAE models, one requires a file that contains the training an
 
 A directory containing the training and validation loss and the model parameters.
 
-#----------HOW TO RUN THE VAE PROGRAM----------#
+#----------HOW TO RUN THE **VAE** PROGRAM----------#
 
 1. Modify the following variables for a different protein in the file "train_dvae.py" :
    
@@ -38,7 +38,7 @@ A directory containing the training and validation loss and the model parameters
 		  latent_data=ate.reconstruct_latent(ca_contact_scaled) # Construct the latent data
 		  reconstructed_data = ate.reconstruct_input(ca_contact_scaled) # Reconstruct the input data
 
-#----------HOW TO RUN THE DCVAE PROGRAM----------#
+#----------HOW TO RUN THE **DCVAE** PROGRAM----------#
 
 1. Modify the following variables for a different protein in the file "train_denoising_vae.py" :
    
