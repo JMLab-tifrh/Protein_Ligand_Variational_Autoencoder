@@ -28,11 +28,11 @@ A directory containing the training and validation loss and the model parameters
 
 	  e. Change the optimizer, loss, learning_rate, batch_size, epochs, alpha and beta as per requirement.
   
-  	2. Type "./train_dvae.py" in the terminal and hit Enter.
+  	2. Type "./train_dvae.py" in the terminal with the environment activated with the specified packages and hit Enter.
   
   	3. To create the latent data and reconstruct the input open a jupyter notebook and type the following statements
 
-   
+   #----------HOW TO RUN THE DCVAE PROGRAM----------#
 
       
 
