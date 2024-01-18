@@ -1,0 +1,19 @@
+# OWNER : SUBINOY ADHIKARI           
+# EMAIL : subinoyadhikari@tifrh.res.in
+
+Steps to run the code :
+
+1. Open a terminal and activate the conda environment which has  tensorflow, numpy and scikit-learn packages.
+2. Modify the following variables for a different protein in the file "train_dvae.py":-
+	a. input_shape
+	b. path
+	c. filename as in "ca_contact_scaled = np.load(path+f"data.npy")". Change "data.npy" to "your_filename.npy".
+	d. Change the number of encoder, latent and decoder neurons as per requirement.
+	e. Change the optimizer, loss, learning_rate, batch_size, epochs, alpha and beta as per requirement.
+3. Type "./train_dvae.py". Hit Enter.
+4. To create the latent data and reconstruct the input :
+	        # Open a jupyter notebook and load the model in a cell as 
+		ate=dense_variational_autoencoder.load(save_dir_name) # Name of the directory where the model parameters are saved. it is in the file "train_dvae.py" with the variable "save_dir_name".
+		ca_contact_scaled = np.load(path+f"data.npy") # Load the data
+		latent_data=ate.reconstruct_latent(ca_contact_scaled)
+		reconstructed_data = ate.reconstruct_input(ca_contact_scaled)
