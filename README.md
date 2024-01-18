@@ -1,0 +1,1 @@
+This is the repository for variational autoencoder (VAE) and denoising convolutional VAE written in tensorflow. Instructions to run the codes are in the "README.dat" file of the individual directories.
